@@ -1,0 +1,33 @@
+Build a production ready microservice for product management, below are there features needed:
+
+1.-Users should be able to add the product
+2.-Users should be able to update the details in the existing product
+3.-Users should be able to remove the product
+4.-Users should be able to get the product by id
+5.-Users should be able to get all the products
+6.-Users should be able to get all the products by category
+7.-Users should be able to get the products by price range
+
+Attributes of the product entity >> {id, name, category, description, images, price, created_date, updated_date }
+
+There must be a reasonable validation, if there's any failure in the validation process, the client must get the proper message.
+
+The tech stack used that must be used for this project is Java under Spring Boot, mysql as database and Apache Maven as build tool.
+
+Initially don't setup the mysql database, so in-memory database H2 must be used, this should be in such way that the data in the application must persist across system reboots.
+
+All the possible Unit test cases must be written.
+
+All the possible Integration test cases must be written.
+
+All the prossible Mutation test cases must be written, include the ones that must apply to test resilency.
+
+--
+
+Include a Postman collection to test the features of the services.
+
+Finally, a documentation of this microservice must be written:
+
+1.-All the details must be included.
+2.-A diagram must be draw.
+3.-A manual of how to test the services.
