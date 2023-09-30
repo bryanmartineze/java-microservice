@@ -13,3 +13,4 @@ public interface ProductService {
     List<Product> getProductsByCategory(String category);
     List<Product> getProductsByPriceRange(BigDecimal minPrice, BigDecimal maxPrice);
 }
+

@@ -15,6 +15,7 @@
 	<description>Java Product Microservice</description>
 	<properties>
 		<java.version>17</java.version>
+		<jakartaee.version>9.1</jakartaee.version> <!-- Use the appropriate Jakarta EE version -->
 	</properties>
 	<dependencies>
 		<dependency>
@@ -24,19 +25,8 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-	    <dependency>
-    		 <groupId>org.hibernate.validator</groupId>
-        	 <artifactId>hibernate-validator</artifactId>
-        	 <version>6.2.0.Final</version>
-    </dependency>
-		</dependency>
+		</dependency>	
 
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-devtools</artifactId>
-			<scope>runtime</scope>
-			<optional>true</optional>
-		</dependency>
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
