@@ -1,10 +1,10 @@
-package com.swodevops.productservice;
+package com.example.CRUDApplication;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ProductserviceApplicationTests {
+class CrudApplicationTests {
 
 	@Test
 	void contextLoads() {

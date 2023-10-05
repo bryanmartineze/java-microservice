@@ -8,14 +8,13 @@
 		<version>3.1.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.swodevops</groupId>
-	<artifactId>productservice</artifactId>
+	<groupId>com.example</groupId>
+	<artifactId>CRUDApplication</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>productservice</name>
-	<description>Java Product Microservice</description>
+	<name>CRUDApplication</name>
+	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
-		<jakartaee.version>9.1</jakartaee.version> <!-- Use the appropriate Jakarta EE version -->
 	</properties>
 	<dependencies>
 		<dependency>
@@ -25,7 +24,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>	
+		</dependency>
 
 		<dependency>
 			<groupId>com.h2database</groupId>
